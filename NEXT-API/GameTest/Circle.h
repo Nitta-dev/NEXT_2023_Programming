@@ -1,10 +1,9 @@
-//-----------------------------------------------------------------------------
-// Circle.h
-// Simple struct to hold data for circle shapes
-//-----------------------------------------------------------------------------
 #pragma once
 #include "Vector2.h"
 
+/// <summary>
+/// Simple struct to hold data for circle shapes
+/// </summary>
 struct Circle
 {
 	Vector2 position;

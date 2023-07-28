@@ -1,10 +1,9 @@
-//-----------------------------------------------------------------------------
-// Renderer.h
-// Base class for all renderer classes
-//-----------------------------------------------------------------------------
 #pragma once
 #include "Component.h"
 
+/// <summary>
+/// Base class for all renderer classes
+/// </summary>
 class Renderer : public Component
 {
 public:

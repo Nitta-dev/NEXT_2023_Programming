@@ -1,7 +1,3 @@
-//-----------------------------------------------------------------------------
-// GameManager.h
-// Holds main game data and methods
-//-----------------------------------------------------------------------------
 #pragma once
 #include "Behaviour.h"
 #include "Renderer.h"
@@ -11,6 +7,9 @@
 #include "Level.h"
 #include "PlayerController.h"
 
+/// <summary>
+/// Holds main game data and methods
+/// </summary>
 class GameManager : public Behaviour, public Renderer, public Singleton<GameManager>
 {
 public:

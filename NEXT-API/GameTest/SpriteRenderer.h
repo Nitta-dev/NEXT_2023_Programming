@@ -1,12 +1,11 @@
-//-----------------------------------------------------------------------------
-// SpriteRenderer.h
-// Renderer class holding CSimpleSprite and related data
-//-----------------------------------------------------------------------------
 #pragma once
 #include "Renderer.h"
 #include "App/SimpleSprite.h"
 #include <string>
 
+/// <summary>
+/// Renders a CSimpleSprite for 2D graphics
+/// </summary>
 class SpriteRenderer : public Renderer
 {
 public:

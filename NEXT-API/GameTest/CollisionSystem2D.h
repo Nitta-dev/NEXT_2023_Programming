@@ -1,7 +1,3 @@
-//-----------------------------------------------------------------------------
-// CollisionSystem2D.h
-// Holds methods to check collisions
-//-----------------------------------------------------------------------------
 #pragma once
 #include "Singleton.h"
 #include "Collider2D.h"
@@ -9,6 +5,9 @@
 #include "CircleCollider2D.h"
 #include <vector>
 
+/// <summary>
+/// Holds methods to check collisions
+/// </summary>
 class CollisionSystem2D : public Singleton<CollisionSystem2D>
 {
 public:

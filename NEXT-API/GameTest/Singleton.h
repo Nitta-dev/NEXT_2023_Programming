@@ -1,9 +1,9 @@
-//-----------------------------------------------------------------------------
-// Singleton.h
-// Singleton pattern template class
-//-----------------------------------------------------------------------------
 #pragma once
 
+/// <summary>
+/// Singleton pattern template class
+/// </summary>
+/// <typeparam name="T"></typeparam>
 template <typename T>
 class Singleton
 {

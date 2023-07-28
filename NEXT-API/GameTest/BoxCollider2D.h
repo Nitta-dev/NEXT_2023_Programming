@@ -1,11 +1,10 @@
-//-----------------------------------------------------------------------------
-// BoxCollider2D.h
-// 2D collider class for boxes
-//-----------------------------------------------------------------------------
 #pragma once
 #include "Rect.h"
 #include "Collider2D.h"
 
+/// <summary>
+/// Collider for 2D physics representing a rectangle
+/// </summary>
 class BoxCollider2D : public Rect, public Collider2D
 {
 public:

@@ -1,10 +1,9 @@
-//-----------------------------------------------------------------------------
-// Object.h
-// Base object class
-//-----------------------------------------------------------------------------
 #pragma once
 #include <string>
 
+/// <summary>
+/// Base class for game objects
+/// </summary>
 class Object
 {
 public:

@@ -1,9 +1,8 @@
-//-----------------------------------------------------------------------------
-// Vector3.h
-// Simple 3-value struct to hold data such as colour rgb values
-//-----------------------------------------------------------------------------
 #pragma once
 
+/// <summary>
+/// Representation of 3D vectors and points
+/// </summary>
 struct Vector3
 {
 	double x;

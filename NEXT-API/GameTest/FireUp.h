@@ -1,12 +1,11 @@
-//-----------------------------------------------------------------------------
-// FireUp.h
-// Holds data for the Fire Up panel object
-//-----------------------------------------------------------------------------
 #pragma once
 #include "GameObject.h"
 #include "DiamondRenderer.h"
 #include "BoxCollider2D.h"
 
+/// <summary>
+/// Holds data for the Fire Up panel object
+/// </summary>
 class FireUp : public GameObject
 {
 public:

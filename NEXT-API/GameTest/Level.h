@@ -1,13 +1,12 @@
-//-----------------------------------------------------------------------------
-// Level.h
-// Manages all level data
-//-----------------------------------------------------------------------------
 #pragma once
 #include "Behaviour.h"
 #include "Renderer.h";
 #include "Tile.h"
 #include "Singleton.h"
 
+/// <summary>
+/// Manages all level data
+/// </summary>
 class Level : public Behaviour, public Renderer, public Singleton<Level>
 {
 public:

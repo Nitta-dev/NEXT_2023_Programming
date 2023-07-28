@@ -1,10 +1,9 @@
-//-----------------------------------------------------------------------------
-// Rect.h
-// Simple struct to hold data for rectangular shapes
-//-----------------------------------------------------------------------------
 #pragma once
 #include "Vector2.h"
 
+/// <summary>
+/// Simple struct to hold data for rectangular shapes
+/// </summary>
 struct Rect
 {
 	Vector2 position;

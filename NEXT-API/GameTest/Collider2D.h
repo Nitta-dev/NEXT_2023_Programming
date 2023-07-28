@@ -1,13 +1,12 @@
-//-----------------------------------------------------------------------------
-// Collider2D.h
-// Base class for 2D collider classes
-//-----------------------------------------------------------------------------
 #pragma once
 #include "Component.h"
 #include "Rect.h"
 #include "Circle.h"
 #include <vector>
 
+/// <summary>
+/// Parent class for collider types used with 2D gameplay
+/// </summary>
 class Collider2D : public Component
 {
 public:

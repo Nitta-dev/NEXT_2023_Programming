@@ -1,7 +1,3 @@
-//-----------------------------------------------------------------------------
-// RenderSystem.h
-// Holds methods to draw shapes
-//-----------------------------------------------------------------------------
 #pragma once
 #include "Singleton.h"
 #include "Rect.h"
@@ -9,6 +5,9 @@
 #include "Vector2.h"
 #include <vector>
 
+/// <summary>
+/// Holds methods to draw shapes
+/// </summary>
 class RenderSystem : public Singleton<RenderSystem>
 {
 public:

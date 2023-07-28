@@ -1,13 +1,12 @@
-//-----------------------------------------------------------------------------
-// GameObject.h
-// Basic game object class
-//-----------------------------------------------------------------------------
 #pragma once
 #include "Object.h"
 #include "Behaviour.h"
 #include "Transform.h"
 #include <vector>
 
+/// <summary>
+/// Basic class for all entities
+/// </summary>
 class GameObject : public Object, public Behaviour
 {
 public:
@@ -29,6 +28,12 @@ public:
 	int layer;
 	std::string tag;
 
+	/// <summary>
+	/// Gets the component of the specified type, if it exists
+	/// </summary>
+	/// <typeparam name="T"></typeparam>
+	/// <param name="temp"></param>
+	/// <returns></returns>
 	template<typename T>
 	bool TryGetComponent(T& temp)
 	{

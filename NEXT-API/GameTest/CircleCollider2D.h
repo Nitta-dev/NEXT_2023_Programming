@@ -1,11 +1,10 @@
-//-----------------------------------------------------------------------------
-// CircleCollider2D.h
-// 2D collider class for circles
-//-----------------------------------------------------------------------------
 #pragma once
 #include "Circle.h"
 #include "Collider2D.h"
 
+/// <summary>
+/// Collider for 2D physics representing a circle
+/// </summary>
 class CircleCollider2D : public Circle, public Collider2D
 {
 public:

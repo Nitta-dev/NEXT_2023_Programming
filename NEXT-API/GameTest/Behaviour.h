@@ -1,10 +1,9 @@
-//-----------------------------------------------------------------------------
-// Behaviour.h
-// Base class for behaviours
-//-----------------------------------------------------------------------------
 #pragma once
 #include "Component.h"
 
+/// <summary>
+/// Behaviours are Components that can be enabled or disabled
+/// </summary>
 class Behaviour : public Component
 {
 public:

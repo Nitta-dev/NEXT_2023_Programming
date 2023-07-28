@@ -1,11 +1,10 @@
-//-----------------------------------------------------------------------------
-// Transform.h
-// Holds basic transform information
-//-----------------------------------------------------------------------------
 #pragma once
 #include "Component.h"
 #include "Vector2.h"
 
+/// <summary>
+/// Position, rotation, and scale of an object
+/// </summary>
 class Transform : public Component
 {
 public:

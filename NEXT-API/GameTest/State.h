@@ -1,9 +1,8 @@
-//-----------------------------------------------------------------------------
-// State.h
-// Basic state class (for state machine)
-//-----------------------------------------------------------------------------
 #pragma once
 
+/// <summary>
+/// Basic state class (for state machine)
+/// </summary>
 class State
 {
 public:

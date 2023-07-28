@@ -1,7 +1,3 @@
-//-----------------------------------------------------------------------------
-// PlayerController.h
-// Holds all player data and related methods
-//-----------------------------------------------------------------------------
 #pragma once
 #include "Controller.h"
 #include "GameObject.h"
@@ -9,6 +5,9 @@
 #include "BoxCollider2D.h"
 #include "Tile.h"
 
+/// <summary>
+/// Holds all player data and related methods
+/// </summary>
 class PlayerController : public GameObject, public Controller
 {
 public:

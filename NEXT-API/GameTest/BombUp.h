@@ -1,12 +1,11 @@
-//-----------------------------------------------------------------------------
-// BombUp.h
-// Holds data for the Bomb Up panel object
-//-----------------------------------------------------------------------------
 #pragma once
 #include "GameObject.h"
 #include "DiamondRenderer.h"
 #include "BoxCollider2D.h"
 
+/// <summary>
+/// Holds data for the Bomb Up panel object
+/// </summary>
 class BombUp : public GameObject
 {
 public:

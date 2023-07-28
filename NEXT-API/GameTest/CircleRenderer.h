@@ -1,11 +1,10 @@
-//-----------------------------------------------------------------------------
-// CircleRenderer.h
-// Renderer class that draws a circle shape
-//-----------------------------------------------------------------------------
 #pragma once
 #include "ShapeRenderer.h"
 #include "Circle.h"
 
+/// <summary>
+/// Renderer class that draws a circle shape
+/// </summary>
 class CircleRenderer : public ShapeRenderer
 {
 public:

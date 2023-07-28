@@ -1,9 +1,8 @@
-//-----------------------------------------------------------------------------
-// Vector2.h
-// Simple 2-value struct to hold data such as position, rotation, etc.
-//-----------------------------------------------------------------------------
 #pragma once
 
+/// <summary>
+/// Representation of 2D vectors and points
+/// </summary>
 struct Vector2
 {
 	double x;

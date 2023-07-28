@@ -1,11 +1,10 @@
-//-----------------------------------------------------------------------------
-// Controller.h
-// Base controller class
-//-----------------------------------------------------------------------------
 #pragma once
 #include "Behaviour.h"
 #include "Timer.h"
 
+/// <summary>
+/// Basic controller class
+/// </summary>
 class Controller
 {
 public:

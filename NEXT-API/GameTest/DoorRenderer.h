@@ -1,11 +1,10 @@
-//-----------------------------------------------------------------------------
-// DoorRenderer.h
-// Renderer class that draws a custom shape
-//-----------------------------------------------------------------------------
 #pragma once
 #include "ShapeRenderer.h"
 #include "Vector2.h"
 
+/// <summary>
+/// Renderer class that draws a custom shape
+/// </summary>
 class DoorRenderer : public ShapeRenderer
 {
 public:

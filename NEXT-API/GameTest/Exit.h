@@ -1,12 +1,11 @@
-//-----------------------------------------------------------------------------
-// Exit.h
-// Holds data for the stage exit object
-//-----------------------------------------------------------------------------
 #pragma once
 #include "GameObject.h"
 #include "DoorRenderer.h"
 #include "BoxCollider2D.h"
 
+/// <summary>
+/// Holds data for the stage exit object
+/// </summary>
 class Exit : public GameObject
 {
 public:

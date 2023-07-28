@@ -1,13 +1,12 @@
-//-----------------------------------------------------------------------------
-// Explosion.h
-// Holds data for explosion game objects
-//-----------------------------------------------------------------------------
 #pragma once
 #include "GameObject.h"
 #include "ExplosionRenderer.h"
 #include "CircleCollider2D.h"
 #include "Timer.h"
 
+/// <summary>
+/// Holds data for explosion game objects
+/// </summary>
 class Explosion : public GameObject
 {
 public:

@@ -1,12 +1,11 @@
-//-----------------------------------------------------------------------------
-// StateMachine.h
-// Basic state machine class
-//-----------------------------------------------------------------------------
 #pragma once
 #include "Behaviour.h"
 #include "State.h"
 #include <stack>
 
+/// <summary>
+/// Basic state machine class
+/// </summary>
 class StateMachine : public Behaviour
 {
 public:

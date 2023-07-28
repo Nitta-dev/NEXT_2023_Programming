@@ -1,11 +1,10 @@
-//-----------------------------------------------------------------------------
-// DiamondRenderer.h
-// Renderer class that draws a diamond shape
-//-----------------------------------------------------------------------------
 #pragma once
 #include "ShapeRenderer.h"
 #include "Rect.h"
 
+/// <summary>
+/// Renderer class that draws a diamond shape
+/// </summary>
 class DiamondRenderer : public ShapeRenderer
 {
 public:

@@ -1,12 +1,11 @@
-//-----------------------------------------------------------------------------
-// Tile.h
-// Holds tile data
-//-----------------------------------------------------------------------------
 #pragma once
 #include "GameObject.h"
 #include "BoxCollider2D.h"
 #include "ShapeRenderer.h"
 
+/// <summary>
+/// Holds tile data
+/// </summary>
 class Tile : public GameObject, public ShapeRenderer
 {
 public:

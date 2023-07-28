@@ -1,11 +1,10 @@
-//-----------------------------------------------------------------------------
-// ShapeRenderer.h
-// Base class for drawing shapes
-//-----------------------------------------------------------------------------
 #pragma once
 #include "Renderer.h"
 #include "Vector3.h"
 
+/// <summary>
+/// Parent class for renderer types used with 2D gameplay
+/// </summary>
 class ShapeRenderer : public Renderer
 {
 public:

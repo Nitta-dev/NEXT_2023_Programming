@@ -1,7 +1,3 @@
-//-----------------------------------------------------------------------------
-// GameObjectManager.h
-// Manages all game objects
-//-----------------------------------------------------------------------------
 #pragma once
 #include "Behaviour.h"
 #include "Singleton.h"
@@ -9,6 +5,9 @@
 #include <vector>
 #include "PlayerController.h"
 
+/// <summary>
+/// Manages all game objects
+/// </summary>
 class GameObjectManager : public Behaviour, public Singleton<GameObjectManager>
 {
 public:
